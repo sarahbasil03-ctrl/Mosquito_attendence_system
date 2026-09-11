@@ -250,7 +250,9 @@ scipy>=1.11.0
 
 ---
 Team Contributions
+
 Sarah Basil: Frontend design and development, user interface, video upload and attendance dashboard, project integration and testing.
+
 Theertha S B: Backend development, mosquito detection and tracking, attendance calculation, video processing and system testing.
 
 ## 👩‍💻 Author
