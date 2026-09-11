@@ -1,8 +1,79 @@
-# 🦟 Mosquito Attendance System
 
-An AI-powered computer vision system that detects and tracks mosquitoes in uploaded videos and automatically generates a real-time attendance report.
+# Mosquito_attendence_system
+AI-powered mosquito attendance system using Python, Flask, and OpenCV. Detects and tracks mosquitoes in video using background subtraction + centroid tracking. Features a dark futuristic web dashboard with real-time attendance reports, search/sort table, and Fun Mode toggle.
+<img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
-Built as a college project demonstrating the use of background subtraction, centroid tracking, and a full-stack web dashboard.
+# Mosquito Attendance System 🦟🎯
+
+## Basic Details
+
+### Team Name: [TRAAASH]
+
+### Team Members
+- Team Lead: [SARAH BASIL] - [COLLEGE OF ENGINEERING CHENGANUUR]
+- Member 2: THEERTHA S B] - [COLLEGE OF ENGINEERING CHENGANUUR]
+
+## Project Description
+
+Mosquito Attendance System is a fun computer-vision-based project that treats mosquitoes like students taking attendance. 🦟
+
+The system processes mosquito videos, detects and tracks mosquito movement, and determines whether each mosquito is **Present or Absent** based on its movement in the monitored area.
+
+## The Problem (that doesn't exist)
+
+Who is attending class and who has flown away? 👀
+
+Normally, nobody keeps attendance for mosquitoes.
+
+But mosquitoes enter, move around, disappear, and come back without informing anyone.
+
+Manual mosquito monitoring is also slow and difficult.
+
+So we decided to solve the most important problem nobody asked us to solve:
+
+**"How do we take attendance of mosquitoes?"** 🦟
+
+## The Solution (that nobody asked for)
+
+We built a computer-vision-based **Mosquito Attendance System**.
+
+The user uploads a video and the system analyzes the video to detect mosquito-like objects, track their movement and generate attendance results.
+
+### Basic Flow
+
+**Video → Detection → Tracking → Entry/Exit Analysis → Attendance → Dashboard**
+
+Because even mosquitoes deserve attendance. 😌🦟
+
+---
+
+# Technical Details
+
+## Technologies/Components Used
+
+### For Software:
+
+- **Languages:** Python, HTML, CSS, JavaScript
+- **Backend:** Flask
+- **Computer Vision:** OpenCV
+- **Numerical Processing:** NumPy
+- **Frontend:** HTML, CSS, JavaScript
+- **Version Control:** Git
+- **Repository:** GitHub
+- **Development Environment:** Kiro IDE
+
+### For Hardware:
+
+No dedicated hardware is required.
+
+The project is designed to run on a **laptop/desktop computer** with:
+
+- Laptop/PC
+- Webcam or video file
+- Standard computing environment
+
+Raspberry Pi and microcontrollers were part of the original conceptual architecture, but the implemented project uses a laptop-based approach.
+
 
 ---
 
@@ -10,18 +81,20 @@ Built as a college project demonstrating the use of background subtraction, cent
 
 ### Page 1 — Video Upload
 ![Upload Page](images/Screenshot%20(7).png)
-
+ upload zone with mosquito icon, drag & drop, TAKE ATTENDANCE button
 ---
 
 ### AI Scanning Overlay
 ![AI Scanning](images/Screenshot%20(8).png)
-
+Analyzing Page: Uploads the video, detects mosquitoes, tracks their movement, generates attendance data, and finalizes the attendance report.
 ---
 
 ### Page 2 — Attendance Dashboard
 ![Attendance Dashboard](images/Screenshot%20(6).png)
-
+Take Attendance Page: Displays the total mosquito count, number entered, absent, and left, along with the final attendance percentage. It also shows each mosquito’s ID, entry time, and leave time for detailed tracking.
 ---
+# Project Demo
+<video controls src="WhatsApp Video 2026-09-12 at 04.40.42.mp4" title=""></video>
 
 ## 📸 Features
 
@@ -148,18 +221,6 @@ Attendance Records               ← entry time, exit time, status
 
 ---
 
-## 🎨 Fun Mode
-
-All decorative elements (mosquito animations, floating particles, funny subtitle) are controlled by a single variable in `index.html`:
-
-```js
-const ENABLE_FUN_MODE = true;   // set to false for clean professional UI
-```
-
-- `true` → mosquito emojis 🦟, animated particles, floating decorations
-- `false` → clean dark futuristic UI, no animations, plain icons
-
----
 
 ## 🔧 Calibration
 
@@ -197,10 +258,13 @@ scipy>=1.11.0
 ```
 
 ---
+Team Contributions
+Sarah Basil: Frontend design and development, user interface, video upload and attendance dashboard, project integration and testing.
+Theertha S B: Backend development, mosquito detection and tracking, attendance calculation, video processing and system testing.
 
 ## 👩‍💻 Author
 
-**Niya Elsa Shiby**
+**theertha S B**
 GitHub: [@sarahbasil03-ctrl](https://github.com/sarahbasil03-ctrl)
 
 ---
@@ -208,3 +272,4 @@ GitHub: [@sarahbasil03-ctrl](https://github.com/sarahbasil03-ctrl)
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
+Made with ❤️ at TinkerHub Useless Projects
