@@ -170,15 +170,6 @@ Or on Windows, just double-click **`run.bat`**.
 
 ---
 
-## 📡 API Endpoints
-
-| Method | Endpoint | Description |
-|---|---|---|
-| GET | `/` | Serves the frontend |
-| GET | `/health` | Backend health check |
-| POST | `/analyze` | Upload video → returns attendance JSON |
-| POST | `/analyze/demo` | Returns demo attendance data (no video needed) |
-
 ### Sample `/analyze` Response
 
 ```json
