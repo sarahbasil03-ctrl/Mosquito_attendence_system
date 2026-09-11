@@ -94,7 +94,7 @@ Analyzing Page: Uploads the video, detects mosquitoes, tracks their movement, ge
 Take Attendance Page: Displays the total mosquito count, number entered, absent, and left, along with the final attendance percentage. It also shows each mosquito’s ID, entry time, and leave time for detailed tracking.
 ---
 # Project Demo
-<video controls src="WhatsApp Video 2026-09-12 at 04.40.42.mp4" title=""></video>
+https://drive.google.com/file/d/1GMlEjSh-aPVPVRV356JTUjG2BCKq9g48/view?usp=drivesdk
 
 ## 📸 Features
 
