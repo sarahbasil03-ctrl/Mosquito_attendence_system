@@ -260,7 +260,8 @@ Theertha S B: Backend development, mosquito detection and tracking, attendance c
 **theertha S B**
 GitHub: [@sarahbasil03-ctrl](https://github.com/sarahbasil03-ctrl)
 
----
+### Note 
+AI/Computer Vision: The Mosquito Attendance System uses computer-vision-based processing to analyze uploaded mosquito videos, detect mosquito movements, track individual mosquitoes, and generate attendance records. The processing is performed locally through the Python backend using OpenCV, so an external API key is not required.
 
 ## 📄 License
 
